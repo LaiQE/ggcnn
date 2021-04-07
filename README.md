@@ -139,3 +139,5 @@ python eval_ggcnn.py --network <Path to Trained Network> --dataset jacquard --da
 Our ROS implementation for running the grasping system see [https://github.com/dougsm/mvp_grasp](https://github.com/dougsm/mvp_grasp).
 
 The original implementation for running experiments on a Kinva Mico arm can be found in the repository [https://github.com/dougsm/ggcnn_kinova_grasping](https://github.com/dougsm/ggcnn_kinova_grasping).
+
+docker run -it --name ggcnn -v /home/shahao/Project/:/home/admin/Project --gpus all --ipc=host laiqe/ggcnn
